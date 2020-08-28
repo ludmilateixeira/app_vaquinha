@@ -21,6 +21,7 @@ class HomePage extends StatefulWidget {
   _HomePageState createState() => _HomePageState();
 }
 
+// Home page
 class _HomePageState extends State<HomePage> {
   // Variáveis
   final _valortotal = TextEditingController();
@@ -44,7 +45,7 @@ class _HomePageState extends State<HomePage> {
     );
   }
 
-  // PROCEDIMENTO PARA LIMPAR OS CAMPOS
+  // Procedimento para limpeza dos campos
   void _resetFields(){
     _valortotal.text = "";
     _qtdpessoas.text = "";
@@ -97,9 +98,10 @@ class _HomePageState extends State<HomePage> {
     );
   }
 
-  // PROCEDIMENTO PARA VALIDAR OS CAMPOS
+  // Procedimento para validação dos campos
   String _validate(String text, String field) {
-    if (text.isEmpty) {
+    if (text.isEmpty) // Se texto é vazio
+    {
       return "Digite o campo acima"; // Caso não preencha, retornaremos esta mensagem
     }
     return null;
