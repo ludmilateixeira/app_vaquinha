@@ -15,10 +15,10 @@ No aplicativo é possível você definir o valor da comissão voltado para x ate
 - O valor individual para cada; <br>
 - E o valor do atendente separadamente. <br>
      
-Aproveite. 
+Aproveite! 
 
 <p align="center">
   <img src="images/vaca.png">
 </p>
 
-* A letra 'x' é utilizada em lugares de artigos de genêro como o artigo o/a para maior inclusão. Pensado para todxs. 
+ Observação: * A letra 'x' é utilizada em lugares de artigos de genêro como o artigo o/a para maior inclusão. Pensado em todxs.
