@@ -70,12 +70,14 @@ class _HomePageState extends State<HomePage> {
               _editText("Qual é a taxa % para x atendente?", _txatendimento),
               _buttonCalcular(),
               _textInfo(),
+              //Image.network("https://www.bemcolar.com/media/catalog/product/cache/1/imagem1/400x/9df78eab33525d08d6e5fb8d27136e95/a/d/adesivo-de-geladeira-vaquinha.png"),
+              Image.asset("image/vaca.png"),
             ],
           ),
         ));
   }
 
-  // Widget text
+  // Widget text ~ template dos campos de escrita
   _editText(String field, TextEditingController controller) {
     return TextFormField(
       controller: controller,
@@ -112,7 +114,7 @@ class _HomePageState extends State<HomePage> {
         color: Colors.teal,
         child:
         Text(
-          "Economizar!",
+          "Dividir!",
           style: TextStyle(
             color: Colors.white,
             fontSize: 21,
@@ -127,35 +129,43 @@ class _HomePageState extends State<HomePage> {
     );
   }
 
-  // PROCEDIMENTO PARA CALCULAR
+  // Procedimento para o botão Calcular
   void _calculate(){
     setState(() {
       double valorconta = double.parse(_valortotal.text);
       int qtdpessoas = int.parse(_qtdpessoas.text);
       double taxagarcom = double.parse(_txatendimento.text);
 
-      double resumoconta = (valorconta+(valorconta*taxagarcom/100))/qtdpessoas;
+      //Para cada pessoa
+      double resumopessoa = (valorconta+(valorconta*taxagarcom/100))/qtdpessoas;
+      String show = resumopessoa.toStringAsPrecision(4);
 
-      String show = resumoconta.toStringAsPrecision(4);
+      //Valor total da conta
+      double resumoconta = (valorconta+(valorconta*taxagarcom/100));
+      String showconta = resumoconta.toStringAsPrecision(4);
 
-      if(resumoconta < 0 || taxagarcom < 0)
+      //Valor total dx atendente
+      double resumoatendente = ((valorconta*taxagarcom/100));
+      String showatende = resumoatendente.toStringAsPrecision(4);
+
+      if(resumopessoa < 0 || taxagarcom < 0)
       {
         _infoText = "O valor da conta ou a taxa dx atendente não pode ser negativo poxa!";
       }
       else if(resumoconta > 0 && taxagarcom > 0)
       {
-        _infoText = "O valor é de $show reais para cada!";
+        _infoText = "O valor total da conta é de $showconta reais.\n\n E o valor individual é de $show reais para cada. \n\n Já o valor do atendente será de $showatende reais! \n\n";
       }
     });
   }
 
-  // Widget text ~ template do lable do text
+  // Widget text ~ template do lable do text de informação
   _textInfo()
   {
     return Text(
       _infoText,
       textAlign: TextAlign.center,
-      style: TextStyle(color: Colors.black54, fontSize: 22.0),
+      style: TextStyle(color: Colors.lightGreen, fontSize: 20.0),
     );
   }
 }
