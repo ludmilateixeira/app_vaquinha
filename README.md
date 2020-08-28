@@ -1,8 +1,8 @@
-# flutter_app
+# Little Cow - Vaquinha
 
-A new Flutter application.
+Primeiro desenvolvimento de um app em Flutter/Dart.
 
-## Getting Started
+## Visão geral
 
 This project is a starting point for a Flutter application.
 
