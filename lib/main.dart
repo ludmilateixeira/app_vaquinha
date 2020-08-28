@@ -71,7 +71,7 @@ class _HomePageState extends State<HomePage> {
               _buttonCalcular(),
               _textInfo(),
               //Image.network("https://www.bemcolar.com/media/catalog/product/cache/1/imagem1/400x/9df78eab33525d08d6e5fb8d27136e95/a/d/adesivo-de-geladeira-vaquinha.png"),
-              Image.asset("image/vaca.png"),
+              Image.asset("images/vaca.png"),
             ],
           ),
         ));
