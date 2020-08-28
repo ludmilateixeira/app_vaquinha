@@ -4,13 +4,16 @@ Primeiro desenvolvimento de um app em Flutter/Dart.
 
 ## Visão geral
 
-This project is a starting point for a Flutter application.
+O aplicativo é voltado para a repartição da conta de algum estabelecimento, bar ou algo conjunto para seus amigxs. 
 
-A few resources to get you started if this is your first Flutter project:
+O mais legal de tudo, é que é pensando diretamente na comissão do nosso amigx, camarada, parceirx, patrão ou patroa ou melhor dizer garçom/garçonete.  Como assim?
+No aplicativo é possível você definir o valor da comissão voltado para x atendente em % (porcentagem) no qual retornará três informações necessárias para fechar a conta, são elas:
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+- O valor total da conta; <br>
+- O valor individual para cada; <br>
+- E o valor do atendente separadamente. <br>
+     
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+<p align="center">
+  <img src="images/vaca.png">
+</p>
