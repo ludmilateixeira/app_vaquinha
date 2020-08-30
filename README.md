@@ -19,6 +19,11 @@ Vídeo explicativo:
 
 https://youtu.be/ERFpvIgDDSw
 
+Caso a resolução do vídeo editado acima fique ruim, segue repartição dos vídeos:
+Parte 01: https://youtu.be/VQOdua9vAuk
+Parte 02: https://youtu.be/eBgZxyo7U9E
+
+
 Observação: * A letra 'x' é utilizada em lugares de artigos de gênero como o artigo o/a para maior inclusão. Pensado em todxs.
 
 Aproveite! 
