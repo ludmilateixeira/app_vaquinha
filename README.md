@@ -18,7 +18,7 @@ No aplicativo é possível você definir o valor da comissão voltado para x ate
 Vídeo explicativo: 
 https://youtu.be/ERFpvIgDDSw
 
-Caso a resolução do vídeo editado acima fique ruim, segue repartição dos vídeos:
+Caso a resolução do vídeo editado acima fique ruim, segue repartição dos vídeos:<br>
 Parte 01: https://youtu.be/VQOdua9vAuk <br>
 Parte 02: https://youtu.be/eBgZxyo7U9E <br>
 
