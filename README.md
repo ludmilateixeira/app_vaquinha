@@ -17,8 +17,7 @@ No aplicativo é possível você definir o valor da comissão voltado para x ate
      
 Aproveite! 
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/ERFpvIgDDSw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
-</iframe>
+https://youtu.be/ERFpvIgDDSw
 
 <p align="center">
   <img src="images/vaca.png">
